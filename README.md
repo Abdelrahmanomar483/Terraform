@@ -1,11 +1,11 @@
 # Terraform projects
-create terraform.tfvars and put your credentials 
+## create terraform.tfvars and put your credentials 
 domain   = "xxxxx"
 username = "xxxxx"
 password = "xxxxx"
 region   = "xxxxx"
 
-basic commands:
+## basic commands:
 	terraform init		--> downloading plugins for provider
 	terraform plan		--> refershing desired and current state , show the changes 
 	terraform apply		--> applying action 
