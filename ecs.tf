@@ -24,7 +24,6 @@ locals {
 resource "flexibleengine_compute_floatingip_associate_v2" "myip0" {
   floating_ip = flexibleengine_vpc_eip.eip_1[0].publicip.0.ip_address
   instance_id = flexibleengine_compute_instance_v2.basic[0].id
-  ##fixed_ip    = flexibleengine_compute_instance_v2.basic.network.1.fixed_ip_v4
 }
 
 resource "flexibleengine_compute_volume_attach_v2" "attached0" {
@@ -36,7 +35,6 @@ resource "flexibleengine_compute_volume_attach_v2" "attached0" {
 resource "flexibleengine_compute_floatingip_associate_v2" "myip1" {
   floating_ip = flexibleengine_vpc_eip.eip_1[1].publicip.0.ip_address
   instance_id = flexibleengine_compute_instance_v2.basic[1].id
-  ##fixed_ip    = flexibleengine_compute_instance_v2.basic.network.1.fixed_ip_v4
 }
 
 resource "flexibleengine_compute_volume_attach_v2" "attached1" {
