@@ -1,9 +1,9 @@
 # Terraform projects
 ## create terraform.tfvars and put your credentials 
-domain   = "xxxxx"
-username = "xxxxx"
-password = "xxxxx"
-region   = "xxxxx"
+	domain   = "xxxxx"
+	username = "xxxxx"
+	password = "xxxxx"
+	region   = "xxxxx"
 
 ## basic commands:
 	terraform init		--> downloading plugins for provider
