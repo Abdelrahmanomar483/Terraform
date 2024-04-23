@@ -7,8 +7,8 @@ terraform {
   }
 }
 provider "flexibleengine" {
-  domain_name = "var.domain"
-  user_name   = "var.username"
-  password    = "var.password"
-  region      = "var.region"
+  domain_name = var.domain
+  user_name   = var.username
+  password    = var.password
+  region      = var.region
 }
